@@ -1,0 +1,428 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+ 
+ 
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	.service-block .thumb .desc {
+	  bottom: -47%;
+	}
+
+	.team-block .team-thumb .team-overlay {
+	  padding: 10px 15px;
+	  height: 82%;
+	}
+	.team-block .team-thumb .team-overlay::after {
+	  left: 0px;
+	}
+	.team-block .team-thumb .styled-icons {
+	  padding: 7px 20px 0 0;
+	  width: 79%;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+html {
+	font-size: 75%;
+}
+.navbar-nav  .dropdown-menu {
+    left: auto;
+}
+#header-logo {
+	padding: 10px 15px;
+}
+.header .navbar-default .navbar-nav > li > a::after {
+	display: none;
+}
+.team-member, .working-progress {
+	margin-bottom: 60px !important;
+}
+.testimonial-carousel .owl-controls .owl-pagination {
+	margin-right: 0px !important;
+}
+
+.curve-bg:after, .curve-bg-half:after {
+	left: auto;
+	-webkit-transform: rotate(-0deg);
+	-moz-transform: rotate(-0deg);
+	-ms-transform: rotate(-0deg);
+	-o-transform: rotate(-0deg);
+	transform: rotate(-0deg);
+}
+.blog-posts .entry-header .entry-title {
+	padding-top: 0;
+}
+.blog-posts .entry-header .entry-date {
+	margin-left: 0;
+}
+.contact-wrapper {
+    padding: 50px 30px;
+}
+.header #header-logo {
+	padding-top: 20px;
+}
+.boxed-layout .header #header-logo,
+.vertical-header .header #header-logo {
+	padding-top: 10px;
+}
+.header .navbar-default .navbar-toggle {
+	margin-top: 18px;
+}
+.boxed-layout .header .navbar-default .navbar-toggle {
+	margin-top: 8px;
+}
+.header #header-logo img {
+	height: 30px;
+}
+.pricing-table .table-price {
+	font-size: 30px;
+}
+.bg-img-box .caption .title {
+	font-size: 24px;
+	margin-top: 0px;
+}
+.bg-img-box .caption .schedule {
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+.service-block .thumb .desc {
+  border-top: 4px solid #fb4848;
+  bottom: -18%;
+}
+.team-block .team-thumb .styled-icons {
+  padding: 10px 20px 0 25px;
+  width: 88%;
+}
+.team-block .team-thumb .team-overlay {
+  height: 88%;
+}
+.team-block .team-thumb .team-overlay {
+  padding: 50px 30px;
+}
+.menuzord-brand span h4 {
+    font-size: 11px;
+    /* margin: 12px 0 0px 0; */
+	margin:0px 30px 0px 30px;
+}
+.menuzord-brand span h5 {
+    font-size: 11px !important;
+    margin: 0 0 10px 0;
+}
+.header-nav .header-nav-wrapper.scroll-to-fixed-fixed.scroll-to-fixed-fixed .menuzord-brand span h4 {
+    font-size: 11px;
+    margin: 10px 0 0 0;
+}
+.top-social-section{
+	display:none;
+}
+.header-top .left{
+	width:100%;
+}
+.menuzord-menu > li > .megamenu .megamenu-row li a{
+	color:#fff;
+}
+.menuzord-menu > li > .megamenu .megamenu-row li a i {
+    color: #fff;
+}
+
+.bg-theme-colored-grey, .bg-theme-colored-green, .bg-theme-colored-blue, .bg-theme-colored-red, .bg-theme-colored-purple, .bg-theme-colored-orange, .bg-theme-colored-cgreen  {
+	margin-bottom:20px
+}
+.equal-height .bg-theme-colored{
+	min-height:auto !important;
+}
+
+.menu-bar{
+    background: none;
+    width: auto;
+    position: absolute;
+    right: -23px;
+    top: 0px;
+}
+.tp-content{
+	margin-top:-70px; padding:2px 15px 10px 15px;
+}
+.tp-content h3 {
+    font-size: 17px;
+}
+.tp-content p {
+    color: #fff;
+    text-align: right;
+    font-size: 12px !important;
+    line-height: 16px;
+}
+.tp-content .btn{
+	margin-top:-15px;
+}
+
+.bg-img-cover {
+    background-size: cover !important;
+    width: 100%;
+    height: 156px;
+    object-fit: cover;
+}
+.home-boxes{
+	margin-top:20px !important;
+}
+.home-boxes .col-md-4, .home-boxes .col-sm-12{
+	padding:0;
+}
+section > .container, section > .container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.social-widget .col-md-12{
+	padding:0;
+}
+
+.promotion-text .mt-50{
+	margin-top:20px !important;
+}
+.promotion-section .pb-40{
+
+	padding-bottom:20px !important;
+}
+.promotion-section .pt-40{
+	padding-top:20px !important;
+
+}
+.news-ticker{
+	background:#eee;
+}
+.news-ticker-carousel2 {
+    padding: 0;
+    width: 94%;
+    float: left;
+    margin-left: 27px;
+}
+.news-ticker-carousel1 {
+    padding: 0 0 0 26px;
+    font-weight: 700;
+    margin-top: 5px;
+    width: 100%;
+}
+.carousel-control {
+    position: absolute;
+    top: -50px;
+}
+.carousel-control.right {
+    right: 11px !important;
+}
+.carousel-control.left {
+    right: 23px;
+    left: auto;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+html {
+	font-size: 60%;
+}
+.box-hover-effect {
+	float: none;
+}
+#header-logo {
+	padding: 10px 15px;
+}
+#spinner {
+	left: 42%;
+}
+.navbar-default .navbar-toggle {
+	margin-top: 15px;
+	border-radius: 0px;
+}
+#home .display-table p {
+	margin: 15px 0;
+	font-size: 14px;
+}
+.icon-box {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.icon-box {
+	text-align: center;
+}
+.icon-box.left {
+	text-align: center;
+}
+.icon-box.left a {
+	margin-right: 0;
+	padding: 0;
+}
+.icon-box .media-left {
+	float: none !important;
+	margin: 0 0 30px 0;
+}
+.icon-box .media-left, .icon-box .media-right, .icon-box .media-body {
+	display: block;
+	width: auto;
+}
+.call-to-action {
+	text-align: center;
+}
+.call-to-action .icon {
+	float: none;
+}
+.sidebar.pull-left,
+.sidebar.pull-right {
+	float: none !important;
+}
+.blog-posts .entry-meta {
+	background: none;
+	left: auto;
+	position: relative;
+	top: auto;
+}
+.testimonial-carousel.boxed .owl-dots {
+ 	text-align: center;
+}
+.bg-img-box .caption .title {
+	font-size: 24px;
+	margin-top: 30px;
+}
+.service-block .thumb .desc {
+  border-top: 4px solid #fb4848;
+  bottom: -15%;
+  padding: 10px 6px 4px 20px;
+}
+.team-block .team-thumb .team-overlay {
+  padding: 60px;
+}
+.team-block .team-thumb .team-overlay {
+  height: 90%;
+}
+.team-block .team-thumb .team-overlay::after {
+  left: -1px;
+}
+.team-block .team-thumb .styled-icons {
+  padding: 9px 20px 0 25px;
+}
+.team-block .team-thumb .styled-icons::after {
+  border-width: 26px;
+  left: -52px;
+}
+.gop-logo{
+	display:block;
+		max-height:50px !important;
+	margin:2px 0 0 -8px
+}
+
+.org-logo{
+	display:none;
+}
+.header-nav .header-nav-wrapper.scroll-to-fixed-fixed.scroll-to-fixed-fixed .menuzord-brand img {
+    height: 45px;
+    margin-top: 4px;
+}
+.menuzord-brand span{
+    text-align: center;
+    margin-top: -31px; 
+}
+.search-form{
+	display:none
+}
+.feeds li .col1>.cont>.cont-col2 {
+    width: 78%;
+
+}
+.feeds li .col1>.cont>.cont-col3 {
+    width: 22%;
+
+}
+.menuzord-menu > li > .megamenu {
+    padding: 7px 10px 7px 7px !important;
+
+}
+.scrolltofixed-container{
+	display:none;
+}
+.inner-header .title {
+    font-size: 20px;
+}
+.news-ticker{
+	display:none;
+}
+.menuzord-responsive .menuzord-menu > li > .megamenu {
+    background: #fff;
+}
+.menuzord-menu > li > .megamenu .megamenu-row li a {
+    color: #333;
+}
+.menuzord-menu > li > .megamenu .megamenu-row li a i {
+    color: #333;
+}
+.menuzord-responsive .menuzord-menu ul.dropdown li a {
+    border-bottom: solid 1px #d3d3d3 ;
+    color: #333;
+    background: #fff;
+}
+.menuzord-responsive .menuzord-menu ul.dropdown li a {
+    border-bottom: dashed 1px #d3d3d3 ;
+
+}
+.menuzord-responsive .menuzord-menu li .indicator {
+
+    border-left: solid 1px #d3d3d3 ;
+}
+
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+html {
+	font-size: 50%;
+}
+.vertical-text-carousel .owl-controls .owl-buttons {
+	top: 18%;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+.team-block .team-thumb .styled-icons {
+  padding: 8px 20px 0 25px;
+}
+.team-block .team-thumb .team-overlay {
+  height: 88%;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px) {
+html {
+	font-size: 35%;
+}
+}

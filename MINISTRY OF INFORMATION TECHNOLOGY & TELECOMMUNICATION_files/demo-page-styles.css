@@ -1,0 +1,30 @@
+
+
+.demo-section-box{
+
+}
+.section-container{
+  width: 98%;
+  margin: 0 auto;
+  max-width: 100%;
+
+
+}
+.demo-box{
+	margin-left:2px
+
+}
+.demo-align-right{
+  text-align: right;
+}
+.demo-button{
+  display: inline-block;
+  padding: 7px 20px;
+  background: #FFF;
+  color: #2eb872;
+  text-decoration: none;
+}
+.demo-button:hover{
+  color: #FFF;
+  background: #2eb872;
+}
